@@ -41,7 +41,7 @@ def makeResponse(req):
     "source": "apiai-weather-webhook"
     }
 
-if __name-- == 'main':
+if __name__ == 'main':
     port = int(os.getenv('PORT', 5000))
     print("Starting app on port %d", % port)
     app.run(debug=Flase, port=port, host='0.0.0.0')
